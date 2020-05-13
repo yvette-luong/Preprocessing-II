@@ -63,7 +63,14 @@
 
     .destination {
       width: 30%;
-      margin-bottom: 30px;
+      margin-bottom: 30px; 
+        @media @phone {
+          flex-wrap: wrap;
+          flex-direction: column;
+          justify-content: center;
+          display: flex;
+          width: 100%;
+
     }
   }
 .content-section {
@@ -76,12 +83,8 @@
 }
 
   .text-content .img-content {
-     display: flex;
-
-      @media @phone {
-        justify-content: center;;
-        display: flex;
-        width: 100%;
+     display: flex;  
     }
-  }
-// home
+body {
+  background-color: red;
+}

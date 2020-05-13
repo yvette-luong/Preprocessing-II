@@ -300,3 +300,11 @@ h1 {
     width: 100%;
   }
 }
+.text-content .img-content .content-destination {
+  display: flex;
+}
+@media (max-width: 500px) {
+  .text-content .img-content .content-destination {
+    flex-direction: column;
+  }
+}
